@@ -1,7 +1,7 @@
 city,lat,lng,country,iso2,admin_name,capital,population,population_proper
 Amsterdam,52.3728,4.8936,Netherlands,NL,Noord-Holland,primary,1459402,917923
 Rotterdam,51.9167,4.5000,Netherlands,NL,Zuid-Holland,minor,631155,592105
-The Hague,52.0800,4.3100,Netherlands,NL,Zuid-Holland,primary,548320,548320
+The-Hague,52.0800,4.3100,Netherlands,NL,Zuid-Holland,primary,548320,548320
 Utrecht,52.0833,5.1167,Netherlands,NL,Utrecht,admin,359370,359370
 Maastricht,50.8500,5.6833,Netherlands,NL,Limburg,admin,277721,120227
 Eindhoven,51.4333,5.4833,Netherlands,NL,Noord-Brabant,minor,235691,235691
@@ -15,15 +15,15 @@ Haarlem,52.3833,4.6333,Netherlands,NL,Noord-Holland,admin,162902,162543
 Apeldoorn,52.2167,5.9667,Netherlands,NL,Gelderland,minor,161156,138945
 Enschede,52.2167,6.9000,Netherlands,NL,Overijssel,minor,159703,159703
 Hoofddorp,52.3061,4.6907,Netherlands,NL,Noord-Holland,minor,157789,157789
-’s-Hertogenbosch,51.6833,5.3000,Netherlands,NL,Noord-Brabant,admin,157486,157486
+s-Hertogenbosch,51.6833,5.3000,Netherlands,NL,Noord-Brabant,admin,157486,157486
 Amersfoort,52.1500,5.3833,Netherlands,NL,Utrecht,minor,157462,157462
 Zaanstad,52.4697,4.7767,Netherlands,NL,Noord-Holland,,156901,156901
 Zwolle,52.5167,6.1000,Netherlands,NL,Overijssel,admin,129840,129840
 Zoetermeer,52.0667,4.5000,Netherlands,NL,Zuid-Holland,minor,125267,125267
 Leiden,52.1600,4.4900,Netherlands,NL,Zuid-Holland,minor,124899,124093
-Leeuwarden,53.2000,5.7833,Netherlands,NL,Fryslân,admin,124481,124481
+Leeuwarden,53.2000,5.7833,Netherlands,NL,Fryslan,admin,124481,124481
 Dordrecht,51.7958,4.6783,Netherlands,NL,Zuid-Holland,minor,119115,119115
-Alphen aan den Rijn,52.1333,4.6667,Netherlands,NL,Zuid-Holland,minor,112587,112587
+Alphen-aan-den-Rijn,52.1333,4.6667,Netherlands,NL,Zuid-Holland,minor,112587,112587
 Alkmaar,52.6333,4.7500,Netherlands,NL,Noord-Holland,minor,109896,109896
 Emmen,52.7833,6.9000,Netherlands,NL,Drenthe,minor,107471,107024
 Delft,52.0117,4.3592,Netherlands,NL,Zuid-Holland,minor,103581,103581
@@ -44,7 +44,7 @@ Almelo,52.3500,6.6667,Netherlands,NL,Overijssel,minor,73132,73132
 Spijkenisse,51.8500,4.3333,Netherlands,NL,Zuid-Holland,minor,72740,72740
 Assen,53.0000,6.5667,Netherlands,NL,Drenthe,admin,68836,68836
 Velsen-Zuid,52.4667,4.6167,Netherlands,NL,Noord-Holland,,68617,68617
-Capelle aan den IJssel,51.9333,4.5833,Netherlands,NL,Zuid-Holland,minor,67319,67319
+Capelle-aan-den-IJssel,51.9333,4.5833,Netherlands,NL,Zuid-Holland,minor,67319,67319
 Veenendaal,52.0167,5.5500,Netherlands,NL,Utrecht,minor,66912,66912
 Katwijk,52.2000,4.4167,Netherlands,NL,Zuid-Holland,minor,65995,65995
 Zeist,52.0906,5.2331,Netherlands,NL,Utrecht,minor,65043,65043
@@ -82,7 +82,7 @@ Teijlingen,52.2150,4.5103,Netherlands,NL,Zuid-Holland,,37791,37791
 Landgraaf,50.9083,6.0297,Netherlands,NL,Limburg,minor,37591,37262
 Gorinchem,51.8306,4.9742,Netherlands,NL,Zuid-Holland,minor,37410,37410
 Hoogvliet,51.8667,4.3500,Netherlands,NL,Zuid-Holland,,35575,35575
-Berg en Dal,51.8167,5.9167,Netherlands,NL,Gelderland,,35010,35010
+Berg-en-Dal,51.8167,5.9167,Netherlands,NL,Gelderland,,35010,35010
 Maassluis,51.9333,4.2333,Netherlands,NL,Zuid-Holland,minor,33567,33567
 Bussum,52.2833,5.1667,Netherlands,NL,Noord-Holland,minor,32410,32410
 Papendrecht,51.8333,4.6833,Netherlands,NL,Zuid-Holland,minor,32290,32171
@@ -96,7 +96,7 @@ Hendrik-Ido-Ambacht,51.8500,4.6333,Netherlands,NL,Zuid-Holland,minor,31258,31258
 Rosmalen,51.7167,5.3667,Netherlands,NL,Noord-Brabant,,31219,31219
 Best,51.5167,5.4000,Netherlands,NL,Noord-Brabant,minor,30216,30216
 Uithoorn,52.2333,4.8333,Netherlands,NL,Noord-Holland,minor,30206,30206
-Krimpen aan den IJssel,51.9167,4.5833,Netherlands,NL,Zuid-Holland,minor,29410,29410
+Krimpen-aan-den-IJssel,51.9167,4.5833,Netherlands,NL,Zuid-Holland,minor,29410,29410
 Culemborg,51.9500,5.2333,Netherlands,NL,Gelderland,minor,29121,29121
 Brunssum,50.9500,5.9667,Netherlands,NL,Limburg,minor,28103,27670
 Geldrop,51.4222,5.5578,Netherlands,NL,Noord-Brabant,minor,28001,28001
@@ -118,8 +118,8 @@ Borne,52.3000,6.7500,Netherlands,NL,Overijssel,minor,23668,23668
 Lisse,52.2500,4.5500,Netherlands,NL,Zuid-Holland,minor,22982,22982
 Volendam,52.4994,5.0675,Netherlands,NL,Noord-Holland,minor,22715,22715
 Hillegom,52.2833,4.5833,Netherlands,NL,Zuid-Holland,minor,22197,22197
-’s-Gravenzande,52.0000,4.1667,Netherlands,NL,Zuid-Holland,,22190,22190
-De Meern,52.0781,5.0281,Netherlands,NL,Utrecht,,21815,21815
+s-Gravenzande,52.0000,4.1667,Netherlands,NL,Zuid-Holland,,22190,22190
+De-Meern,52.0781,5.0281,Netherlands,NL,Utrecht,,21815,21815
 Nuenen,51.4733,5.5467,Netherlands,NL,Noord-Brabant,minor,20580,20580
 Alblasserdam,51.8702,4.6667,Netherlands,NL,Zuid-Holland,minor,20136,20136
 Weesp,52.3000,5.0500,Netherlands,NL,Noord-Holland,minor,19334,19334
@@ -145,7 +145,7 @@ Rozenburg,51.9058,4.2486,Netherlands,NL,Zuid-Holland,,12455,12455
 Blaricum,52.2667,5.2500,Netherlands,NL,Noord-Holland,minor,11952,11952
 Schoonhoven,51.9500,4.8500,Netherlands,NL,Zuid-Holland,minor,11922,11922
 Laren,52.2500,5.2333,Netherlands,NL,Noord-Holland,minor,11400,11400
-Koog aan de Zaan,52.4667,4.8000,Netherlands,NL,Noord-Holland,,11225,11225
+Koog-aan-de-Zaan,52.4667,4.8000,Netherlands,NL,Noord-Holland,,11225,11225
 Doesburg,52.0167,6.1333,Netherlands,NL,Gelderland,minor,11148,11064
 Leidschendam,52.0833,4.4000,Netherlands,NL,Zuid-Holland,minor,10482,10482
 Heerlerbaan,50.8692,6.0103,Netherlands,NL,Limburg,,9872,9872
@@ -158,7 +158,7 @@ Bolnes,51.8947,4.5788,Netherlands,NL,Zuid-Holland,,7300,7300
 Santpoort-Noord,52.4225,4.6261,Netherlands,NL,Noord-Holland,,7240,7240
 Soesterberg,52.1194,5.2831,Netherlands,NL,Utrecht,,7210,7210
 Reuver,51.2850,6.0792,Netherlands,NL,Limburg,minor,6120,6120
-Surhuisterveen,53.1833,6.1667,Netherlands,NL,Fryslân,,6050,6050
+Surhuisterveen,53.1833,6.1667,Netherlands,NL,Fryslan,,6050,6050
 Susteren,51.0667,5.8667,Netherlands,NL,Limburg,,5965,5965
 Hintham,51.7000,5.3500,Netherlands,NL,Noord-Brabant,,5910,5910
 Meteren,51.8639,5.2825,Netherlands,NL,Gelderland,,5398,5398
@@ -170,16 +170,16 @@ Pernis,51.8833,4.3833,Netherlands,NL,Zuid-Holland,,4860,4860
 Soestdijk,52.1908,5.2822,Netherlands,NL,Utrecht,,4830,4830
 Aerdenhout,52.3644,4.5972,Netherlands,NL,Noord-Holland,,4730,4730
 Munstergeleen,50.9747,5.8667,Netherlands,NL,Limburg,,4610,4610
-Den Dolder,52.1064,5.2403,Netherlands,NL,Utrecht,,4420,4420
+Den-Dolder,52.1064,5.2403,Netherlands,NL,Utrecht,,4420,4420
 Rijsenhout,52.2667,4.7000,Netherlands,NL,Noord-Holland,,4103,4103
 Overveen,52.3922,4.6175,Netherlands,NL,Noord-Holland,minor,4040,4040
 Molenhoek,51.7661,5.8739,Netherlands,NL,Limburg,,3930,3930
-De Kwakel,52.2408,4.7908,Netherlands,NL,Noord-Holland,,3880,3880
+De-Kwakel,52.2408,4.7908,Netherlands,NL,Noord-Holland,,3880,3880
 Kwintsheul,52.0167,4.2500,Netherlands,NL,Zuid-Holland,,3560,3560
 Heelsum,51.9822,5.7525,Netherlands,NL,Gelderland,,3540,3540
 Nijkerkerveen,52.1950,5.4667,Netherlands,NL,Gelderland,,3530,3530
 Santpoort-Zuid,52.4167,4.6333,Netherlands,NL,Noord-Holland,,3370,3370
-Goutum,53.1786,5.8064,Netherlands,NL,Fryslân,,3310,3310
+Goutum,53.1786,5.8064,Netherlands,NL,Fryslan,,3310,3310
 Nieuwstadt,51.0333,5.8667,Netherlands,NL,Limburg,,3260,3260
 Zwaag,52.6679,5.0757,Netherlands,NL,Noord-Holland,,3155,3155
 Oerle,51.4222,5.3706,Netherlands,NL,Noord-Brabant,,2940,2940
@@ -188,7 +188,7 @@ Giesbeek,51.9944,6.0694,Netherlands,NL,Gelderland,,2695,2695
 Boekelo,52.2044,6.8019,Netherlands,NL,Overijssel,,2595,2595
 Vlijmen,51.6953,5.2119,Netherlands,NL,Noord-Brabant,minor,2577,2577
 Bemmel,51.8917,5.8958,Netherlands,NL,Gelderland,minor,2532,2532
-Kralingse Veer,51.9249,4.5071,Netherlands,NL,Zuid-Holland,,2411,2411
+Kralingse-Veer,51.9249,4.5071,Netherlands,NL,Zuid-Holland,,2411,2411
 Born,51.0333,5.8111,Netherlands,NL,Limburg,,2405,2405
 Neerbeek,50.9506,5.8153,Netherlands,NL,Limburg,,2370,2370
 Boven-Hardinxveld,51.8256,4.8381,Netherlands,NL,Zuid-Holland,,2227,2227
@@ -215,7 +215,7 @@ Oud-Vroenhoven,50.8478,5.6514,Netherlands,NL,Limburg,,1220,1220
 Rijnsburg,52.1833,4.4333,Netherlands,NL,Zuid-Holland,,1171,1171
 Heer,50.8406,5.7269,Netherlands,NL,Limburg,,1152,1152
 Nieuwendam,52.3917,4.9406,Netherlands,NL,Noord-Holland,,1120,1120
-Ubach over Worms,50.9167,6.0500,Netherlands,NL,Limburg,,1100,1100
+Ubach-over-Worms,50.9167,6.0500,Netherlands,NL,Limburg,,1100,1100
 Limbricht,51.0117,5.8369,Netherlands,NL,Limburg,,1100,1100
 Driehuis,52.4472,4.6367,Netherlands,NL,Noord-Holland,,1080,1080
 Zwammerdam,52.1058,4.7272,Netherlands,NL,Zuid-Holland,,1052,1052

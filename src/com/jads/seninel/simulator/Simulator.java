@@ -13,72 +13,62 @@ public class Simulator {
 		int idAddress;
 		String city;
 		String province;
-		boolean housing;
-		boolean health;
-		boolean labor;
-		boolean employer;
-		boolean payment;
-		boolean householdsExceeded;
-		boolean workingHoursExceeded;
-		boolean paymentExceeded;
-		boolean noContract;
-		boolean noVacation;
+		boolean housing = false;
+		boolean health = false;
+		boolean labor = false;
+		boolean employer = false;
+		boolean payment = false;
+		boolean householdsExceeded = false;
+		boolean workingHoursExceeded = false;
+		boolean paymentExceeded = false;
+		boolean noContract = false;
+		boolean noVacation = false;
 	
-		System.setProperty("java.util.logging.SimpleFormatter.format", "%1$tQ %5$s %n");
+		System.setProperty("java.util.logging.SimpleFormatter.format", "@%1$tQ %5$s %n");
 		Log my_log = new Log("log.txt");
 
 		List<List<String>> cityProvince = new ArrayList<>();
 
+		//Get cities from DB
 		DataFromCSV data = new DataFromCSV();
 		cityProvince = data.getListOfListsFromCsv();
 		
-		for (int i = 0; i < 100; i++) {
+		//Set number of entries in a log, i.e. the number of events
+		int nEntries = 101;
+		
+		//Simulate the events
+		for (int i = 0; i < nEntries; i++) {
 			
+			//Location
 			idAddress = random(100);
 			int randomValue = random(cityProvince.size());
 			city = cityProvince.get(randomValue).get(0);
 			province = cityProvince.get(randomValue).get(5);
 
+			//Constraints
 			householdsExceeded = randomBool();
 			workingHoursExceeded = randomBool();
 			paymentExceeded = randomBool();
 			noContract = randomBool();
 			noVacation = randomBool();
 			
-			if(householdsExceeded) {
-				housing = true;
-			} else {
-				housing = randomBool();
-			}
+			if(householdsExceeded) housing = true;
 			
-			if(workingHoursExceeded) {
-				labor = true;
-			} else {
-				labor = randomBool();
-			}
+			if(workingHoursExceeded) labor = true;
 			
-			if(paymentExceeded) {
-				payment = true;
-			} else {
-				payment = randomBool();
-			}
+			if(paymentExceeded) payment = true;
 			
-			if(noContract) {
-				payment = employer = labor = true;
-			} else {
-				payment = randomBool();
-				employer = randomBool();
-				labor = randomBool();
-			}
+			if(noVacation) payment = employer = true;
 			
-			if(noVacation) {
-				payment = employer = true;
-			}else {
-				payment = randomBool();
-				employer = randomBool();
-			}
+			if(noContract) payment = employer = labor = true;
 			
-			health = randomBool();
+			// Set values if not affected by constraints
+			
+			if(!housing) housing = randomBool();
+			if(!health) health = randomBool();
+			if(!labor) labor = randomBool();
+			if(!employer) employer = randomBool();
+			if(!payment) payment = randomBool();			
 			
 			saveLogSituation(idReport, idAddress, city, province, housing, health, labor, employer, payment,
 					householdsExceeded, workingHoursExceeded, paymentExceeded, noContract, noVacation, my_log);
@@ -120,11 +110,11 @@ public class Simulator {
 			 * "boolean paymentExpl, boolean laborExpl, boolean employerExpl, boolean householdsExceeded, boolean workingHoursExceeded, "
 			 * + "boolean pteamsaymentExceeded, boolean noContract, boolean noVacation)");
 			 */
-			my_log.logger.info("situation(" + idReport + ", " + idAddress + ", " + city + ", " + province + ", " +
+			my_log.logger.info("situation(" + idReport + "," + idAddress + "," + city + "," + province + "," +
 					// save categories
-					housing + ", " + health + ", " + labor + ", " + employer + ", " + payment + ", " +
+					housing + "," + health + "," + labor + "," + employer + "," + payment + "," +
 					// save questions
-					householdsExceeded + ", " + workingHoursExceeded + ", " + paymentExceeded + ", " + noContract + ", "
+					householdsExceeded + "," + workingHoursExceeded + "," + paymentExceeded + "," + noContract + ","
 					+ noVacation + ")");
 
 		} catch (Exception e) {
