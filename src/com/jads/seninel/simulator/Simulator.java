@@ -34,7 +34,7 @@ public class Simulator {
 		cityProvince = data.getListOfListsFromCsv();
 		
 		//Set number of entries in a log, i.e. the number of events
-		int nEntries = 101;
+		int nEntries = 100;
 		
 		//Simulate the events
 		for (int i = 0; i < nEntries; i++) {
@@ -69,7 +69,7 @@ public class Simulator {
 			if(!labor) labor = randomBool();
 			if(!employer) employer = randomBool();
 			if(!payment) payment = randomBool();			
-			
+						
 			saveLogSituation(idReport, idAddress, city, province, housing, health, labor, employer, payment,
 					householdsExceeded, workingHoursExceeded, paymentExceeded, noContract, noVacation, my_log);
 			
